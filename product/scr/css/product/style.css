@@ -74,6 +74,9 @@
     border-radius: 50%;
     background-color: #959595;
 }
+.next-btn:hover{
+    background-color: #1A1A1A;
+}
 .arrow {
     border: solid white;
     border-width: 0 3px 3px 0;

@@ -1,26 +1,30 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.content{
+
+footer {
     width: 100%;
     height: 1250px;
     overflow: hidden;
-    background-color:rgba(0, 0, 0, 0.671);
+    background-color: rgba(0, 0, 0, 0.671);
 }
-.img img{
+
+.img img {
     width: 100%;
     height: 100%;
     overflow: hidden;
     display: flex;
 }
-.texbox{
+
+.texbox {
     position: absolute;
     bottom: 60%;
     left: 9%;
     color: rgba(255, 255, 255, 0.753);
     font-size: 2rem;
 }
+
 .box2 {
     display: flex;
     gap: 50px;
@@ -29,8 +33,25 @@ body{
     font-size: 1.5rem;
     color: white;
 }
-.box3 h3{
+
+.box3 h3 {
     color: white;
     margin-top: 3%;
     margin-left: 50%;
+}
+
+.button {
+
+    background-color: #ffffff;
+    height: 20%;
+    width: 40%;
+    border: 1px solid white;
+    padding: 20px 20px;
+    border-radius: 40px;
+    cursor: not-allowed;
+    text-align: center;
+    margin-left: 2%;
+    color: black;
+    margin-top: 20px;
+
 }

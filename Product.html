@@ -2,29 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Products</title>
-    <link rel="stylesheet" href="product.css" />
+    <link rel="stylesheet" href="product.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   </head>
   <body>
     <div class="container">
-      <header>
-        <div class="logo">
-          <img src="logo.jpg" alt="" />
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Bike</a></li>
-            <li><a href="">About Us</a></li>
-          </ul>
-        </div>
-      </header>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <label class="logo">G#1</label>
+        <ul>
+          <li><a class="active" href="">Home</a></li>
+          <li><a href="">BiKe</a></li>
+          <li><a href="">about Us </a></li>
+        </ul>
+      </nav>
 
-      <div>
-        <h1 style="margin-left: 5%; font-size: 60px">Road</h1>
-        <p style="margin-left: 85%; font-size: 30px">View more</p>
-        <p style="font-size: 30px; margin-left: 5%">
+      <div class="bar-product">
+        <span class="name-product">Road</span>
+        <span class="view" ></span>
+        <p class="prk">
           A type of bicycle specifically designed for road use. They are ideal
           for long- <br />
           distance cycling, bike racing, or everyday use on the road.
@@ -60,7 +61,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by2.png" alt="" />
+              <img src="by2.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -88,7 +89,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by3.png" alt="" />
+              <img src="by3.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -115,9 +116,9 @@
             </div>
           </div>
         </div>
-        <h1 style="margin-left: 5%; font-size: 40px">Gravel</h1>
-        <p style="margin-left: 85%; font-size: 30px">View more</p>
-        <p style="margin-left: 5%; margin-top: -50px; font-size: 30px">
+        <h1 class="name-product">Gravel</h1>
+        <p class="view">View more</p>
+        <p class="prk">
           A versatile type of bike designed to tackle a variety of terrains,
           <br />including asphalt roads, gravel, dirt, and trails. These bikes
           are ideal <br />
@@ -127,7 +128,7 @@
         <div class="bycicle">
           <div class="card">
             <div class="image">
-              <img src="by4.png" alt="" />
+              <img src="by4.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -154,7 +155,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by5.png" alt="" />
+              <img src="by5.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -181,7 +182,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by6.png" alt="" />
+              <img src="by6.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -207,9 +208,9 @@
             </div>
           </div>
         </div>
-        <h1 style="margin-left: 5%; font-size: 40px">Mountain</h1>
-        <p style="margin-left: 85%; font-size: 30px">View more</p>
-        <p style="margin-left: 5%; margin-top: -50px; font-size: 30px">
+        <h1 class="name-product">Mountain</h1>
+        <p class="view">View more</p>
+        <p class="prk">
           A type of bike specifically designed for use on rough terrain, such as
           <br />
           mountains, dirt tracks, forests, and rocky terrain. They are suitable
@@ -221,7 +222,7 @@
         <div class="bycicle">
           <div class="card">
             <div class="image">
-              <img src="by7.png" alt="" height="250px" />
+              <img src="by7.png" alt="" height="250px" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -248,7 +249,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by8.png" alt="" />
+              <img src="by8.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -275,7 +276,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by9.png" alt="" />
+              <img src="by9.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -302,9 +303,9 @@
             </div>
           </div>
         </div>
-        <h1 style="margin-left: 5%; font-size: 40px">Folding</h1>
-        <p style="margin-left: 85%; font-size: 30px">View more</p>
-        <p style="margin-left: 5%; margin-top: -50px; font-size: 30px">
+        <h1 class="name-product">Folding</h1>
+        <p class="view">View more</p>
+        <p class="prk">
           A type of bike that can be folded into a smaller, portable size for
           easy <br />
           storage and transportation. Despite their smaller size, most folding
@@ -315,7 +316,7 @@
         <div class="bycicle">
           <div class="card">
             <div class="image">
-              <img src="by10.png" alt="" style="height: 350px" />
+              <img src="by10.png" alt="" style="height: 350px" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -342,7 +343,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by11.png" alt="" />
+              <img src="by11.png" alt="" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -369,7 +370,7 @@
           </div>
           <div class="card">
             <div class="image">
-              <img src="by12.png" alt="" style="height: 350px" />
+              <img src="by12.png" alt="" style="height: 350px" >
             </div>
             <div class="paragraph">
               <section class="paragraph-p">
@@ -403,7 +404,7 @@
                     <h1>Ready to ride?</h1>
                     <p>Ready to ride? We'll give you our top gallery <br>
                         recommendations!</p>
-                        <div class="button">Shop Now</div>
+                    <button class="button">Shop Now</button>
             </div>
             <div class="box2">
                 <p>Privacy</p>

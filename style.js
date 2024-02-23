@@ -18,5 +18,7 @@ function updateSliderPosition() {
   const offset = -currentIndex * cardWidth;
   slider.style.transform = `translateX(${offset}px)`;
 }
+
+
 document.querySelector('.next-btn').addEventListener('click', slideNext);
 document.querySelector('.prev-btn').addEventListener('click', slidePrevious);
